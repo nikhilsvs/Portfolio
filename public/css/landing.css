@@ -1,0 +1,83 @@
+*{
+    color:aliceblue;
+}
+.dp img{
+    width:20%;
+    border-radius:50%;
+}
+
+ .dp h1{
+    font-family: 'Cinzel Decorative';
+}
+header .aggregate .spn{
+    position:absolute;
+    right:-5%;
+    top:10%;
+   font-family: 'Cinzel Decorative';
+    display:flex;
+    flex-direction:column;
+}
+header .aggregate .spn i{
+    color:#ff695e;
+    font-size:20px;
+}
+header .aggregate .spn span{
+    margin:5px;
+}
+.container{
+    height:100vh;
+    width:100%;
+}
+h3 span{
+   color:#ff695e;
+ font-style:italic;
+    font-weight:bold;
+}
+.list{
+    height:25vh;
+    width:100%;
+  
+}
+header{
+    background-image:url("../images/overlay.jpg");
+    background-repeat: no-repeat;
+    background-size:cover; 
+  
+    background-attachment: fixed;
+    -moz-background:cover;
+    -o-background:cover;
+    -webkit-background:cover;
+   
+}
+.container{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items:center;
+}
+.list .items{
+    font-size:30px;
+    font-family: 'Bad Script';
+    height:100%;
+    list-style:none;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;   
+}
+.list .items li a{
+    color:white;
+    transition-duration: 0.5s;
+}
+.list .items li a:hover{
+    color:#ff695e;
+}
+.overlay{
+   
+    background-color:rgba(31,31,31,0.75);
+}
+.btn{
+    
+    display:flex;
+    justify-content: space-around;
+   
+}

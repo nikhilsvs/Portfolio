@@ -1,0 +1,325 @@
+
+nav{
+    
+    background-color:transparent;
+    height:100px;
+    position:relative;
+    
+}
+.nav-link li a{
+    color:white;
+    text-decoration: none;
+    font-size:20px;
+    pointer-events: all;
+}
+    nav .hamburger .line {
+        width:30px;
+        height:3px;
+        background-color: #ff695e;
+        margin:5px;
+    }
+    
+    .hamburger{
+        position:absolute;
+        cursor:pointer;
+        right:5%;
+        top:8%;
+       
+        
+        
+        z-index:4;
+        position:fixed;
+    }
+    nav .nav-link {
+        position:fixed;
+        background-color:rgb(31,31,31);
+        height:500px;
+        width:40%;
+        
+        list-style: none;
+        z-index:1;
+        margin-left:60%;
+        transform:translate(5%,0%);
+        clip-path:circle(50px at 90% -10%);
+        -webkit-clip-path:circle(50px at 90% -10%);
+        transition: all 1s ease-out;
+        pointer-events: none;
+     
+          
+    }
+    nav .nav-link li{
+        margin:40px;
+        position: relative;
+         transform:translate(50%,400%);
+        pointer-events: all;
+    }
+    nav .nav-link.open{
+       clip-path:circle(500px at 90% -10%);
+        -webkit-clip-path:circle(500px at 90% -10%);
+        pointer-events: all;
+        
+    }
+@media screen and (max-width: 1000px){
+   nav .nav-link {
+        position:fixed;
+        background-color:rgb(31,31,31);
+        height:1000px;;
+        width:100%;
+       display:flex;
+       flex-direction:column;
+       
+       justify-content: space-around;
+       align-items: center;
+        margin-left:-5%;
+        list-style: none;
+        z-index:1;
+       
+        clip-path:circle(50px at 90% -10%);
+        -webkit-clip-path:circle(50px at 90% -10%);
+        transition: all 1s ease-out;
+        pointer-events: none;
+     
+          
+    }
+    nav .nav-link li{
+       
+        position: relative;
+         transform:translate(0%,0%);
+        pointer-events: all;
+    }
+    nav .nav-link li a{
+       
+        font-size:24px;
+    }
+    nav .nav-link.open{
+       clip-path:circle(2000px at 90% -10%);
+        -webkit-clip-path:circle(2000px at 90% -10%);
+        pointer-events: all;
+        
+    }
+    .carousel-indicators{
+        z-index:0;
+    }
+}
+
+.about_me{
+    margin:35px 35px;
+}
+.about_me .about_content{
+    margin-top:30px;
+}
+.testimonial{
+    background-image:url("../images/carousel.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+   
+    height:80vh;
+    color:aliceblue;
+    font-family: 'Bad Script';
+    
+}
+.testimonial h1{
+   
+    height:30vh;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.testimonial h2{
+   
+    height:20vh;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.testimonial-overlay{
+    background-color:rgba(31,31,31,0.50);
+    height:100%;
+}
+.carousel-indicators{
+    position:absolute;
+    bottom:-10vh;
+    
+}
+.testimonial .testimonial-overlay .container{
+    height:100%;
+    display:flex;
+    top:-10%;
+    justify-content:space-around;
+    align-items:center;
+    position:relative;
+   
+}
+.testimonial-caption .c3 img{
+    width:100px;
+    border-radius:50%;
+}
+.testimonial-caption .container{
+    display:flex;
+    flex-direction:column;
+}
+.thmb{
+    background-color:black;
+    width:100%;
+   
+}
+.thmb img{
+    width:100px;
+    opacity:1;
+    text-align: center
+    transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+}
+
+.testimonial span{
+    
+    color:dodgerblue;
+    font-style: italic;
+    font-size:30px;
+    font-weight: bolder;
+}
+.skills .skills_content{
+    position: absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+    color:aliceblue;   
+    opacity:0;    
+    display:flex;
+     justify-content: center;
+    align-items:center;
+   
+    
+    transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+}
+
+.about_me,.education,.skills,.contact h1{
+    font-family: 'Cinzel Decorative';
+}
+.education h1{
+    font-family: 'Cinzel Decorative';
+}
+
+.education .thmb{
+    background-color:white;
+}
+
+.item-skill:hover img{
+    opacity:0;
+}
+.education,.about_me p{
+    font-family: 'Bad Script';
+}
+.item-skill:hover .skills_content{
+    opacity:1;
+}
+.education .content{
+    height:30vh;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+} 
+.item-skill:hover.item-skill{
+    background-color:rgb(31,31,31);
+}
+.contact{
+    margin:20px 20px;
+    margin-top:40px;
+}
+.contact .field{
+    font-family:sans-serif;
+    font-size:15px;
+}
+.contact .form-control{
+    height:50px;
+}
+.contact .txtmsg{
+    height:50px;
+}
+.contact .btn{
+    width:100%;
+    padding-top:13px;
+    padding-bottom:13px;
+    font-size:15px;
+}
+
+.contact .content-i{
+    display:flex;
+    margin-top:5vh;
+    margin-bottom:5vh;
+    width:50%;
+    justify-content:space-around;
+    text-align:center;
+    color:dodgerblue;
+    margin-left:auto;
+    z-index: 2;
+}
+.contact .content-i .item-i{
+    padding:8px 12px;
+    color:dodgerblue;
+    border-radius:3px;
+    font-size:35px;
+  
+    transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+}
+.contact .spn{
+    position:absolute;
+    margin-top:5vh;
+    margin-bottom:5vh;
+    width:40%;
+    display:flex;
+    flex-direction:column;
+}
+.contact .spn span{
+    margin:5px;
+}
+.contact .spn i{
+    color:dodgerblue;
+    font-size:20px;
+    
+}
+.contact .content-i .item-i:hover{
+    background-color:dodgerblue;
+    color:white;
+}
+.footer{
+    background-color:#1a1a1a;
+    padding-bottom:35px;
+    padding-top:35px;
+    border-bottom:3px solid #129cf3;
+}
+#copyright{
+    width:50%;
+}
+#copyright p{
+    color:#8C8B8A;
+    font-weight:600;
+    font-size:15px;
+    text-transform: uppercase;
+}
+.copyright p a{
+    text-decoration:none;
+    color:#129CF3;
+}
+.scroll-up a{
+    background-color:#129CF3;
+    padding:25px;
+    
+}
+.scroll-up{
+    text-align:right;
+}
+.scroll-up a i{
+    color:white;
+    font-size:white;
+}
