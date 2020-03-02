@@ -1,6 +1,11 @@
 *{
     color:aliceblue;
 }
+body{
+    margin-left:100px;
+    padding:0px;
+    width:100%;
+}
 .dp img{
     width:20%;
     border-radius:50%;
@@ -26,7 +31,7 @@ header .aggregate .spn span{
 }
 .container{
     height:100vh;
-    width:100%;
+  
 }
 h3 span{
    color:#ff695e;
@@ -39,6 +44,10 @@ h3 span{
   
 }
 header{
+    width:100%;
+    
+    margin:0;
+    color:coral;
     background-image:url("../images/overlay.jpg");
     background-repeat: no-repeat;
     background-size:cover; 
@@ -74,6 +83,7 @@ header{
 .overlay{
    
     background-color:rgba(31,31,31,0.75);
+    width:100%;
 }
 .btn{
     
