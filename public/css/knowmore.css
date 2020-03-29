@@ -6,6 +6,9 @@ nav{
     position:relative;
     
 }
+.education h1,.about_me #codechef{
+    font-family: 'Cinzel Decorative';
+}
 .nav-link li a{
     color:white;
     text-decoration: none;
@@ -107,6 +110,11 @@ nav{
 }
 .about_me .about_content{
     margin-top:30px;
+    
+}
+.about_me .about_content .content{
+   
+    font-size:16px;
 }
 .testimonial{
     background-image:url("../images/carousel.jpg");
@@ -202,19 +210,50 @@ nav{
 
 .about_me,.education,.skills,.contact h1{
     font-family: 'Cinzel Decorative';
+    
 }
-.education h1{
-    font-family: 'Cinzel Decorative';
+.about_me .content{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    font-family: 'Comic Neue';
+   
 }
+.about_me .thumbnail{
+    height:410px;
+}
+.about_me .CCbtn{
+    
+    border:1px solid saddlebrown;
+    padding:15px 20px;
+    border-radius:5px;
+    color:rgb(54.5,27.1,7.5);
+    
+    line-height: 18px;
+    text-decoration:none;
+    font-weight: bolder;
+    margin-top:15px;
+    transition:all 0.5s ease-in-out;
+    -o- transition:all 0.5s ease-in-out;
+    -webkit- transition:all 0.5s ease-in-out;
+}
+
+.about_me .CCbtn:hover{
+    background-color: rgb(114.5,67.1,27.5);
+    color:aliceblue;
+}
+
 
 .education .thmb{
     background-color:white;
+
 }
 
 .item-skill:hover img{
     opacity:0;
 }
-.education,.about_me p{
+.education p{
     font-family: 'Bad Script';
 }
 .item-skill:hover .skills_content{
@@ -223,9 +262,23 @@ nav{
 .education .content{
     height:30vh;
     display:flex;
-    justify-content: space-around;
+    flex-direction:column;
+    justify-content: center;
+    font-family: 'Rubik';
     align-items: center;
+    
 } 
+.education .content span{
+    font-style: italic;
+    color:#ff695e;
+    font-weight: 800;
+}
+.education .content h5{
+    font-weight: bolder;
+}
+.education #heading{
+    font-family: 'Baloo Chettan 2';
+}
 .item-skill:hover.item-skill{
     background-color:rgb(31,31,31);
 }
