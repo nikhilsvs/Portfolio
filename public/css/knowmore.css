@@ -220,9 +220,7 @@ nav{
     font-family: 'Comic Neue';
    
 }
-.about_me .thumbnail{
-    height:410px;
-}
+
 .about_me .CCbtn{
     
     border:1px solid saddlebrown;
@@ -265,6 +263,15 @@ nav{
     flex-direction:column;
     justify-content: center;
     font-family: 'Rubik';
+    align-items: center;
+    
+} 
+.about_me .content{
+    height:30vh;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    
     align-items: center;
     
 } 
