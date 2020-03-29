@@ -49,3 +49,4 @@ app.post("/new",function(req,res){
     });
 });
 app.listen(process.env.PORT,process.env.IP);
+/*process.env.PORT,process.env.IP-->*/

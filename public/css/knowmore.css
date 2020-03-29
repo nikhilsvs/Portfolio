@@ -218,6 +218,9 @@ nav{
     justify-content:space-around;
     align-items: center;
     font-family: 'Comic Neue';
+    margin-top:15px;
+    margin-bottom:30px;
+    font-weight: bold;
    
 }
 
@@ -258,7 +261,8 @@ nav{
     opacity:1;
 }
 .education .content{
-    height:30vh;
+    margin-top:10px;
+    margin-bottom:25px;
     display:flex;
     flex-direction:column;
     justify-content: center;
@@ -267,7 +271,7 @@ nav{
     
 } 
 .about_me .content{
-    height:30vh;
+   
     display:flex;
     flex-direction:column;
     justify-content: center;
